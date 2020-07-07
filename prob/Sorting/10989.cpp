@@ -1,3 +1,5 @@
+// 메모리 초과;
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
