@@ -46,7 +46,7 @@ int main() {
 		for (int j = 0; j < n; j++) {
 			if (map[i][j] == 1 && path[i][j] == false) {
 				house_cnt = 0;
-				DFS(i, j);
+				dfs(i, j);
 				vec.push_back(house_cnt);
 			}
 		}
